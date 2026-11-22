@@ -1,0 +1,46 @@
+# Downloads a new News Review PDF into inbox/ so it can be split into articles.
+# Start it either from the Actions tab ("Run workflow", paste the link),
+# or by committing the link as the only line of inbox/url.txt.
+name: Fetch newsletter PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Link to the News Review PDF"
+        required: true
+  push:
+    paths:
+      - inbox/url.txt
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the PDF
+        env:
+          INPUT_URL: ${{ github.event.inputs.url }}
+        run: |
+          url="${INPUT_URL:-$(head -n1 inbox/url.txt | tr -d '\r')}"
+          case "$url" in
+            https://*.pdf) ;;
+            *) echo "Not an https link to a PDF: $url"; exit 1 ;;
+          esac
+          name="$(basename "${url%%\?*}")"
+          mkdir -p inbox
+          curl -fsSL --max-filesize 50000000 -o "inbox/$name" "$url"
+          head -c 5 "inbox/$name" | grep -q '%PDF' || { echo "Downloaded file is not a PDF"; exit 1; }
+          echo "$url" > "inbox/$name.source.txt"
+
+      - name: Commit it
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git add inbox
+          git commit -m "Fetch newsletter PDF" || echo "Nothing new"
+          git push
