@@ -17,3 +17,5 @@ An RSS feed of the ATU Local 587 *News Review*, one item per article.
 3. Commit. GitHub Pages publishes the updated feed within a minute or two.
 
 The feed keeps the most recent 12 issues.
+
+**Note:** The November 2026 issue was split and checked by hand. The December 2025 – October 2026 issues were split automatically, so some article boundaries or headings may be a little off. Each item links to its page in the PDF.

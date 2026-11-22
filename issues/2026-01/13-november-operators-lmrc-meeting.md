@@ -1,0 +1,67 @@
+---
+title: "November Operators’ LMRC Meeting"
+pages: 18, 19, 20
+---
+Attendees:
+
+Rachael Buchanan, Lisa Nault, Jabari Hampton, Cory Rigtrup, William Mc- Coy, Amanda Thames
+
+## FOLLOW UP:
+
+ADA Placards:
+
+That one is still stuck in Service Information. They take our design and finalize it and then give it to CSC who produces it. Dragging on month after month and Metro is sorry about that. It’s the same thing we already have on the new Gillig’s, which is a metal plate, so the language has already been approved. The Union would like to know how a decal is different when nothing about the design should be changed. Metro doesn’t know.
+
+Customer Relations Classes:
+
+Update from Training as of November 25th, is that the AVADE training is at 53% completion rate. 1st class available is at 85% completion, and they’re trying to incorporate that class into the AVADE class to make it a full 8 hours of training. Metro believes Operators are being detailed off their work to attend. It is easier for Metro to detail Operators for the entire 8-hour class than it is to relieve them for a 4-hour block. The Union would like to know if feedback is being given after the classes are taken, and what that looks like. A survey is offered at the end of
+
+By Lisa Nault #3647 and Rachael Buchanan #21341; ATU 587 Bus Reps every class. Metro is not sure of the results.
+
+Uniform Committee:
+
+One LMRC Member was at one Uniform Committee meeting where the Metro Lead didn’t attend and wasn’t at the one the Metro Lead did. It’s cold out and Operators have no jackets. Metro contends that it’s not a uniform committee item and can’t change what’s currently in the contract. The committee can only make recommendations according to the CBA. Who has that authority? The Director does. Can the director get jackets? “The Director can’t do that.” Metro asks, “Don’s doesn’t have a parka?” The parka is not a winter jacket. Don’s contract expires at the end of the month, and the bidding process is out. Metro will start with confirming what’s currently available. The contract does call out a parka, and we need to figure out what is allowable for a winter coat, because it’s only going to get colder. If members are being called out for out of uniform for winter coats, please bring it back to us.
+
+Tukwila Base:
+
+Painting offices today and the coaches are being tested with the chargers. The 3 routes will run out of South Base on the weekdays. Those three routes will only run weekday service out of Tukwila Base and that will be the only RDO option at the first pick when the base opens.
+
+## DECEMBER 4, 2025
+
+They will run those routes out of South Base on the weekdays. 21 buses have been delivered and are in varying states of readiness for service. Training has started qualifying on the coaches because Metro wants to get some service on them before the base opens in March.
+
+School Zones:
+
+Metro was able to have a conversation with upper management, and it sounds like it’s been elevated further, because Metro recognizes the Union’s point that the policy as written is excessive. Metro believes there is a revision to that bulletin but was unable to find it during the meeting.
+
+Encampments:
+
+Continue writing SIRs! At East Base, Route 522 lays over Ravenna Blvd between on and off ramps for I-5, there are encampments on both sides of the street, and there are concerns to the public and to our operators who park there. These are just examples of locations all over the county that we have to deal with. Metro just got feedback from the security groups thanking us for filling out those reports. There were a couple that alerted them to problem areas, and they were ablet to go out and address them. If you are writing them and not seeing action, bring it to the base safety committee.
+
+Meeting Times:
+
+This day of the week is pretty much locked in and if we need to change the time, we can look at that. The recurring time on the calendar appears to work. The Union VP has Supervisor LMRC an hour before that. We could move this to 9am on January 8th as a trial. And then going forward, the 1st Thursday of the month at 9am. If that doesn’t work, we’ll revisit at that time.
+
+## New Business:
+
+Building a Successful Probationary Program for FTO:
+
+Executive Board Officer VM Position 3 is filling in for the Vice President and in a month, a lot of things have happened. What he is seeing is that since we’ve hired off the street, the standards have not changed from PT. Employees are trying to filter into the Metro system and learning how to drive. The point system hasn’t changed, and some new Operators have racked up a few probationary points, and they get fired only to be brought back a few days later. It’s stressful and unnecessary. If Metro can identify that this employee is borderline, you get pulled in, evaluated, and given an action plan. Our contract calls it decision-making leave, but we think that’s a far better process than what we’re doing now, which is completely unnecessary. Where we see Super-
+
+intendents actually believe in the employee, it’s much better. The Union’s position is let’s give them a chance because putting them on notice and giving them the opportunity to change is a good thing. Metro agrees that the process needs to change. We’re throwing operators on the street on their first day on a Saturday with no resources and there’s a lot to be desired in their care and success. Some care is happening, but overall, it’s not. There’s a lot of labor for the Chief to keep track of people and the Union is aware of the CBA regarding probationary employees. The process is about as good as it gets for right now until we can change the points or increase coverage on the weekends. Metro hears and agrees with the Union on the care and success of new employees. Hiring and firing is very expensive, and Metro doesn’t want to waste the public’s money on hiring and firing. Metro will have some results early in the year in terms of overall numbers. There is a desire to have more Chief’s available on weekends. What’s being done right now and what can we do wholistically. The Union wants to avoid the step of having an Operator lose their job and have all that stress about caring for their family. Let’s have the conversation now. Metro kind of lets the bases run those processes. If the Superintendent isn’t there that day, the person is getting fired, and there’s not a lot Metro can do about that. Metro would like to know if this is anecdotal or happening on a larger basis. There are a lot more instances because Operations is so large. If the Union sees an actual epidemic of this, Metro definitely wants to know so they can investigate and address the process of hiring and firing of people. Shop Stewards have been active, especially at East Base where there are 3 subcontracts that have to be filled and going on the Extra Board right out of class is a lot more stressful. Can we send a message to Training that the initial pairing for long periods didn’t work and then going down to zero hours also didn’t work. We would like some consistency with pairing that isn’t painful for everyone. We are training our operators on school trippers when there are 5 reroutes and it’s unreasonable to expect brand new people to understand that training. Shop Stewards told Metro to send them out as many times as you can to get them familiar with the process, and Metro said it sounded good, but we don’t think it actually went into practice. We need to spend more time on route qualifications rather than learning it just one direction and be qualified on the whole route. Metro agrees they can be flexible and sometimes people need help. Is there a safety aspect to this we can propose to the safety committee? Is this a safety concern or a service concern? It is a safety concern because we’ve had two very senior report operators make mistakes and if it’s complicated for someone with 30+ years’ experience, it’s very complicated for someone who is brand new. Metro might need to involve a few extra work groups in this process.
+
+Preventability Process Before Imposing Discipline:
+
+Scheduled meeting time reached before topic could be discussed.
+
+Federal Way Trains:
+
+The Union recognizes there are 3 new
+
+Link Light Rail Stations opening on December 6th. Operators have not seen anything regarding the route into, out of, or around the Kent/Des Moines Station or the 272nd Street Station. The routing was already changed to accommodate the Downtown Federal Way Station. Metro doesn’t have anything about that with the procession of events happening. Metro was caught off guard about the new stations opening. Metro has to see what the plan is for today. They recognize that they are very limited but there will be significant changes in the Fall of 2026. Metro did not print any mid-shakeup schedule changes. If your run card changes, please let us know. Metro stated they had to build the bus zones inside the new Rail Stations. That doesn’t mean we’re going to use them right away.
+
+Meeting adjourned at 11:53.
+
+Have a topic you want brought up in the LMRC Meetings? Contact Lisa or Rachael to submit your topics.
+
+13028 Interurban Ave S, Suite 116 Tukwila, WA 98168
