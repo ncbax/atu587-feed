@@ -1,22 +1,18 @@
 ---
-title: "Shawn Yim Memorial"
+title: "Shawn Yim Memorial, January 3, 2026"
 pages: 18
 scanned: true
 ---
-18 NEWS REVIEW
+*In Loving Memory: Shawn Yim, 1965-2024, #21882. Killed in the line of duty December 18, 2024. "Your hard work and dedication will not be forgotten."*
 
-Shawn Yim Memorial
+**Please join us for the ATU587 Shawn Yim Memorial**
 
-IN LOVING MEMORY
+January 3, 2026, 12:00pm – 3:00pm
 
-Shawn Yim 1965-2024
+**Balloon Release at 2:38pm**
 
-Killed in the line of duty December 18, 2024 “Your hard work and dedication will not be forgotten.”
+A Toast Will Be Made and Light Refreshments will be served
 
-Please join us for the ATU587 Shawn Yim Memorial
+**Amalgamated Transit Union Office, 13028 Interurban Ave S Unit 116, Tukwila, WA**
 
-January 3, 2026, 12:00pm — 3:00pm Balloon Release at 2:38pm A Toast Will Be Made and Light Refreshments will be served Amalgamated Transit Union Office 13028 Interurban Ave S Unit 116
-
-Tukwila, WA
-
-a ATU occ) 587
+*The flyer shows Shawn Yim's portrait between photos of Metro buses; see the PDF.*
