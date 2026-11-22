@@ -2,7 +2,7 @@
 title: "Bylaw Proposal Ruled Out of Order"
 pages: 15
 ---
-**To:** All Members of Local 587
+**To:** All Members of Local 587  
 **From:** Recording Secretary Latrelle Gibson
 
 **Proposed changes:**

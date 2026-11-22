@@ -1,5 +1,6 @@
 ---
 title: "Structure Before Expansion: A Different Way to Think About VP #3"
+author: Andy Price, Shop Steward, Local 587
 pages: 14, 15
 ---
 There has been significant discussion about the proposal to add a 3rd Vice President. The workload concerns being raised are real. Contract enforcement is harder. Management behavior has deteriorated. Bargaining is more complex. No one disputes that.
@@ -14,15 +15,11 @@ The question is how we structure ourselves to do that work effectively, proporti
 
 Under our bylaws and the ATU Constitution and General Laws, full-time officers are generally elected by the membership at large. That principle exists for a reason. It ensures that those who hold the highest authority in the Local are accountable to the entire membership — not just one craft or property.
 
-This does not mean craftspecific positions can never exist. It does mean they should be created carefully and only when truly necessary.
+This does not mean craft-specific positions can never exist. It does mean they should be created carefully and only when truly necessary.
 
-That is also why we have an Executive Board of roughly twenty elected representatives and an established Shop Steward system. Those positions were de-
+That is also why we have an Executive Board of roughly twenty elected representatives and an established Shop Steward system. Those positions were designed to distribute work, engage membership talent, and prevent concentration of authority in too few hands.
 
-By Andy Price, Shop Steward, Local 587
-
-signed to distribute work, engage membership talent, and prevent concentration of authority in too few hands.
-
-The President of this Local is not only a presiding officer. The title reflects it clearly: President/ Business Agent. The Vice Presidents serve as Assistant Business Agents. Their responsibility includes organizing, delegating, training, bargaining, and mobilizing the membership — not personally carrying every grievance.
+The President of this Local is not only a presiding officer. The title reflects it clearly: President/Business Agent. The Vice Presidents serve as Assistant Business Agents. Their responsibility includes organizing, delegating, training, bargaining, and mobilizing the membership — not personally carrying every grievance.
 
 If workload is overwhelming, the first structural question should be: Are we fully utilizing the officers and stewards we already have?
 
@@ -46,13 +43,10 @@ We already have the ability to detail Executive Board members when workload spik
 
 Instead of permanently expanding the officer structure, we could:
 
-• Detail Executive Board members during high-demand periods.
-
-• Invest more consistently in steward training and coordination.
-
-• Strengthen professional support staff.
-
-• Modernize participation tools to engage more members in real time.
+- Detail Executive Board members during high-demand periods.
+- Invest more consistently in steward training and coordination.
+- Strengthen professional support staff.
+- Modernize participation tools to engage more members in real time.
 
 These approaches increase capacity without locking the Local into long-term structural expansion.
 
@@ -79,13 +73,3 @@ Before expanding the number of elected offices, we should fully utilize the capa
 A strong union is not defined by how many titles it has. It is defined by how effectively it organizes the talent, experience, and commitment of its members.
 
 For these structural, financial, and democratic reasons, I cannot support this proposal as written. I believe there are more effective and sustainable ways to strengthen enforcement and representation. For that reason, I will be voting no.
-
-(A request from our Local 8 Union office staff)
-
-Throughout the year Local 587 mails letters to our membership. With each mailing sent, the union receives a small percentage of letters returned due to improper address.
-
-Local 587 maintains a database that in part includes the names and addresses of our King County Metro members. The King County Metro section of the database is updated monthly from data provided by King County Metro.
-
-If you are a King County Metro employee and your name and address is not current with King County Metro, you may not receive Union mailings. Please keep your name and address current with King County Metro.
-
-## To: All Members of Local 587 From: Recording Secretary Latrelle Gibson
