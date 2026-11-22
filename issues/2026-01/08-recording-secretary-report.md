@@ -1,0 +1,27 @@
+---
+title: "The Recording Secretary's Report: Rail Repick and Various Rec Sec Info"
+author: Latrelle Gibson
+pages: 6
+---
+For those at rail, you've probably heard that a repick is coming. Had it been MY choice, I would've told Sound Transit to wait until the Spring/Summer pick, that way runcards could've been provided and the simulated I-90 service could've been picked then. Wait, I did suggest this and also asked why couldn't rail just assign the work via the board and whatever was left, sell it at O.T, even perhaps run the simulated service at half until the pick in March. The answer was this would cost too much for Sound Transit. I was under the impression ST had some serious deep pocket coins, seeing that they receive taxes from 3 counties and all, but maybe I'm mistaken. That being said due to this, an MOA was signed to allow for this repick which is scheduled for Jan 7 – 9. This pick will take effect February 14, 2026 and will still run until March 28. The regular pick will still be the week of March 9 – 11.
+
+The driver timecards, run cuts, and seniority pick list are available on the website to view. We will NOT be picking vacation at this repick, that will be during the regular pick in March. When operating the simulated service, please make note of the run times and be sure to report them if there is not enough time in the run for turn backs or restroom usage. Due to the rushed nature of this simulated service, there may not have been time for proper review of these run times.
+
+## RSIT Seniority List
+
+The RSIT Seniority list is available on the Union Website to View. Please keep in mind the reason for the delay was due to the MOA that was just signed, which would've required a revision. This MOA's language is consistent with O&MSIT's language, which places those currently at Rail first in seniority order, followed by others in King County, followed by External Candidates. This Seniority list will reflect this MOA change. Thank you, Abdiwahab, Greg, and (I'm going to pat my own self on the back for suggesting using the same language as streetcar during the contract survey meetings and helping get the language drafted to propose in bargaining) for working hard on this language, now Rail is consistent with other classifications. We will still need to bargain this MOA into the new language as it is set to expire once the new TA is signed and ratified, and this language has been presented in our contract proposals.
+
+## Seniority Adjustments
+
+I know I've written a lot about seniority and how it works. However, this topic is important to discuss as this is all we have when it comes to choosing our work shifts, work locations, vacation time, ETC. The Union CANNOT just change one's seniority. Remember, the seniority list is the employer's list, and the Union cannot alter their list, only the employer can do this. Seniority adjustments and seniority restoration are different animals. Adjustment speaks to making someone whole and restoration speaks to restoring a member to their previously held seniority date and rank.
+
+For seniority adjustments, this would normally be the result of a settlement agreement or a forfeiture. If a member obtains an attorney, and they reach a settlement agreement with Metro, and part of this agreement is to adjust one's seniority to what it should've been, this is what the Union IS REQUIRED TO COMPLY WITH. A settlement is a legally binding agreement, and many settlements have been in the works for 4+ years before getting to this point. So, although some may be upset when an adjustment happens, know that there is nothing the Union can do about this. We have to comply with the settlement agreement.
+
+For seniority restoration, this action is usually the result of a medical separation, transfer, or promotion. If a member is medially separated, and returns to their classification held at time of separation within 3 years, they will have their seniority restored. Medical Separation is a process, one cannot simply quit and state they were medically separated. The other instance would be one transferred or promoted to a job outside of 587 but within King County and decided to return to their previous classification within a year, they would have their seniority restored. If a member for instance promotes to SIT, and decides to return to operator, they would return to their bus operator classification with no loss in seniority, HOWEVER, if they decided to go back to SIT, they would lose all rights to the seniority they held in that classification.
+
+## Bargaining
+
+Open bargaining will return in the New Year. This is when the "stuff" gets real! I don't know if we'll be able to always say what articles we'll be addressing, however, I will try to keep the membership updated to help members know when show up for their classification although there is nothing wrong with just simply showing up to observe. The bargaining dates will be indicated in this *News Review* and were listed in the December edition of the *News Review*. I am going to be working with our staff to get the proposals we pushed across the table uploaded to the website. This will not be something that will happen quickly, as this is new for us and we will need to figure out how to upload such large files to the website, this is the entire contract being uploaded to the website and this takes a lot of work to do. We appreciate your patience as we work to get this uploaded and see you at the next bargaining session!
+
+In Solidarity,
+RecSec Gibson
