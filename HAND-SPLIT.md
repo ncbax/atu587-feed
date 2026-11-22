@@ -13,7 +13,7 @@ The December 2025 – October 2026 issues were first split by a script. Each one
 | 2026-07 | Done by hand |
 | 2026-06 | Done by hand |
 | 2026-05 | Done by hand |
-| 2026-04 | To do (batch 3) |
+| 2026-04 | Done by hand |
 | 2026-03 | To do (batch 3) |
 | 2026-02 | To do (batch 3) |
 | 2026-01 | To do (batch 4) |

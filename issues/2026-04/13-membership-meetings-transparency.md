@@ -1,5 +1,6 @@
 ---
 title: "Membership Meetings, Transparency, and Representation"
+author: Andy Price, Shop Steward, Local 587
 pages: 12
 ---
 Membership meetings are where the democratic life of our union is supposed to take place. They are where members raise concerns about working conditions, discuss contract issues, debate proposals, and vote on the direction of the Local. When members take the time to attend a meeting, they should be able to expect that the meeting allows meaningful participation and that the procedures being followed are clear and transparent.
@@ -8,13 +9,9 @@ Recently, a number of members have raised concerns about how some meetings are b
 
 One concern raised by members who attended the most recent meeting was how little of the meeting was devoted to regular union business. From what was described by those present, the meeting moved very quickly to the bylaw proposal under consideration, the vote was taken, and shortly afterward the meeting was adjourned. Members who attempted to raise other issues reported that they were not given the opportunity to do so.
 
-Membership meetings exist so that members can bring forward concerns affecting their jobs, their contracts, safety issues, and other union matters. When a meeting becomes focused almost entirely on a single item of business and then
+Membership meetings exist so that members can bring forward concerns affecting their jobs, their contracts, safety issues, and other union matters. When a meeting becomes focused almost entirely on a single item of business and then ends immediately after that vote, members understandably question whether the meeting served its broader purpose.
 
-By Andy Price, Shop Steward, Local 587
-
-ends immediately after that vote, members understandably question whether the meeting served its broader purpose.
-
-Parliamentary procedure exists to help ensure fairness in situations like this. Our bylaws recognize Robert’s Rules of Order as the authority for questions of procedure when they are not otherwise addressed. One of the basic principles in Robert’s Rules is transparency in voting. Once ballots are counted, the chair normally announces the result of the vote to the assembly, including the number of votes for and against the motion and whether the motion is adopted or lost.
+Parliamentary procedure exists to help ensure fairness in situations like this. Our bylaws recognize Robert's Rules of Order as the authority for questions of procedure when they are not otherwise addressed. One of the basic principles in Robert's Rules is transparency in voting. Once ballots are counted, the chair normally announces the result of the vote to the assembly, including the number of votes for and against the motion and whether the motion is adopted or lost.
 
 That practice exists for a simple reason. When members attend a meeting and participate in a vote, they reasonably expect to hear the outcome once the tally has been completed.
 
@@ -30,7 +27,7 @@ There is a reason for that structure. Officers elected at large are accountable 
 
 Different locals structure their leadership positions in different ways depending on their size and needs. Some locals have additional vice presidents elected at large, while others create positions tied to specific departments or groups of members. These are reasonable topics for members to discuss, and thoughtful discussion about representation can help determine what structure best serves the membership as a whole.
 
-Open discussion about procedure, transparency, and representation should not be viewed as criticism. It is simply part of a healthy union. When members understand how meetings are conducted, how votes are counted, and how decisions are made, confidence in the union’s democratic process grows.
+Open discussion about procedure, transparency, and representation should not be viewed as criticism. It is simply part of a healthy union. When members understand how meetings are conducted, how votes are counted, and how decisions are made, confidence in the union's democratic process grows.
 
 Our membership meetings should always reflect those principles.
 
