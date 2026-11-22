@@ -1,6 +1,6 @@
-# Downloads a new News Review PDF into inbox/ so it can be split into articles.
-# Start it either from the Actions tab ("Run workflow", paste the link),
-# or by committing the link as the only line of inbox/url.txt.
+# Downloads News Review PDFs into inbox/ so they can be split into articles.
+# Start it either from the Actions tab ("Run workflow", paste a link),
+# or by committing links, one per line, to inbox/url.txt.
 name: Fetch newsletter PDF
 
 on:
@@ -22,25 +22,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download the PDF
+      - name: Download the PDFs
         env:
           INPUT_URL: ${{ github.event.inputs.url }}
         run: |
-          url="${INPUT_URL:-$(head -n1 inbox/url.txt | tr -d '\r')}"
-          case "$url" in
-            https://*.pdf) ;;
-            *) echo "Not an https link to a PDF: $url"; exit 1 ;;
-          esac
-          name="$(basename "${url%%\?*}")"
           mkdir -p inbox
-          curl -fsSL --max-filesize 50000000 -o "inbox/$name" "$url"
-          head -c 5 "inbox/$name" | grep -q '%PDF' || { echo "Downloaded file is not a PDF"; exit 1; }
-          echo "$url" > "inbox/$name.source.txt"
+          if [ -n "$INPUT_URL" ]; then echo "$INPUT_URL" > /tmp/urls.txt; else tr -d '\r' < inbox/url.txt > /tmp/urls.txt; fi
+          while read -r url; do
+            case "$url" in
+              https://*.pdf) ;;
+              *) [ -n "$url" ] && echo "Skipping, not an https link to a PDF: $url"; continue ;;
+            esac
+            name="$(basename "${url%%\?*}")"
+            curl -fsSL --max-filesize 50000000 -o "inbox/$name" "$url"
+            head -c 5 "inbox/$name" | grep -q '%PDF' || { echo "Not a PDF: $url"; rm -f "inbox/$name"; exit 1; }
+            echo "$url" > "inbox/$name.source.txt"
+            echo "Fetched $name"
+          done < /tmp/urls.txt
 
-      - name: Commit it
+      - name: Commit them
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898+github-actions[bot]@users.noreply.github.com"
           git add inbox
-          git commit -m "Fetch newsletter PDF" || echo "Nothing new"
+          git commit -m "Fetch newsletter PDFs" || echo "Nothing new"
           git push
