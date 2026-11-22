@@ -7,7 +7,7 @@ The December 2025 – October 2026 issues were first split by a script. Each one
 | Issue | Status |
 | --- | --- |
 | 2026-11 | Done by hand |
-| 2026-10 | To do (batch 1) |
+| 2026-10 | Done by hand |
 | 2026-09 | To do (batch 1) |
 | 2026-08 | To do (batch 1) |
 | 2026-07 | To do (batch 2) |
