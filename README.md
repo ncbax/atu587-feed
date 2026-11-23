@@ -19,3 +19,7 @@ An RSS feed of the ATU Local 587 *News Review*, one item per article.
 The feed keeps the most recent 12 issues.
 
 **Note:** The November 2026 issue was split and checked by hand. The December 2025 – October 2026 issues were split automatically, so some article boundaries or headings may be a little off. Each item links to its page in the PDF.
+
+## Web archive
+
+`build.py` also writes `archive/`: an index page plus one page per issue (`archive/YYYY-MM.html`) with a table of contents, anchor links to each article, links to the PDF pages, and print styling. Read it at https://ncbax.github.io/atu587-feed/archive/

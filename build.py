@@ -123,5 +123,128 @@ def build():
     print(f"Wrote feed.xml with {len(items)} items from {len(issue_dirs)} issue(s).")
 
 
+CSS = """
+:root { color-scheme: light; }
+body { font-family: Georgia, "Times New Roman", serif; line-height: 1.55; color: #1a1a1a;
+       max-width: 42rem; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+h1, h2, h3, nav, .meta, .back, .crumbs, table { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+h1 { font-size: 1.8rem; line-height: 1.2; margin: .5rem 0 .25rem; }
+h2.article-title { font-size: 1.4rem; line-height: 1.25; margin: 0 0 .25rem; }
+article h2, article h3 { font-size: 1.1rem; margin: 1.5rem 0 .5rem; }
+a { color: #0b5394; }
+.crumbs { font-size: .9rem; margin: 0; }
+.meta { font-size: .85rem; color: #555; margin: 0 0 1rem; }
+.note { font-size: .9rem; color: #555; font-style: italic; }
+nav.toc { background: #f4f4f4; border-radius: 6px; padding: .75rem 1rem; margin: 1.5rem 0 2rem; }
+nav.toc h2 { font-size: 1rem; margin: 0 0 .5rem; }
+nav.toc ol { margin: 0; padding-left: 1.5rem; }
+nav.toc li { margin: .2rem 0; }
+article { border-top: 1px solid #ddd; padding-top: 1.5rem; margin-top: 2rem; }
+table { border-collapse: collapse; font-size: .9rem; margin: 1rem 0; display: block; overflow-x: auto; max-width: 100%; }
+body { overflow-wrap: anywhere; }
+img { max-width: 100%; }
+th, td { border: 1px solid #ccc; padding: .3rem .5rem; text-align: left; vertical-align: top; }
+blockquote { border-left: 3px solid #ccc; margin-left: 0; padding-left: 1rem; color: #333; }
+.back { font-size: .85rem; margin-top: 1rem; }
+.issues { list-style: none; padding: 0; }
+.issues li { margin: .6rem 0; }
+.issues .count { color: #555; font-size: .85rem; }
+@media print {
+  body { max-width: none; padding: 0; font-size: 11pt; color: #000; }
+  a { color: #000; text-decoration: none; }
+  .back, .crumbs, .pdf-link, .print-hide { display: none; }
+  nav.toc { background: none; border: 1px solid #999; }
+  article { page-break-before: always; border-top: none; margin-top: 0; }
+  article:first-of-type { page-break-before: auto; }
+  h2, h3 { page-break-after: avoid; }
+  table { display: table; }
+  table, blockquote { page-break-inside: avoid; }
+  @page { margin: 2cm; }
+}
+"""
+
+
+def html_page(title, body):
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{escape(title)}</title>
+<link rel="alternate" type="application/rss+xml" title="{FEED_TITLE}" href="../feed.xml">
+<style>{CSS}</style>
+</head>
+<body>
+{body}
+</body>
+</html>
+"""
+
+
+def build_archive():
+    """Write archive/index.html plus one archive/YYYY-MM.html per issue."""
+    out = ROOT / "archive"
+    out.mkdir(exist_ok=True)
+    issue_dirs = sorted(
+        (d for d in (ROOT / "issues").iterdir() if (d / "issue.json").exists()),
+        reverse=True,
+    )
+    listing = []
+    for d in issue_dirs:
+        issue = json.loads((d / "issue.json").read_text(encoding="utf-8"))
+        pdf = f"../issues/{d.name}/issue.pdf"
+        arts = [(p.stem, parse_article(p)) for p in sorted(d.glob("[0-9][0-9]-*.md"))]
+        toc = "\n".join(f'<li><a href="#{a_id}">{escape(a["title"])}</a></li>' for a_id, a in arts)
+        sections = []
+        for a_id, a in arts:
+            label = page_label(a["pages"]).capitalize()
+            first = a["pages"][0]
+            meta = []
+            if a["author"]:
+                meta.append(f"By {escape(a['author'])}")
+            meta.append(f'{label} · <a class="pdf-link" href="{pdf}#page={first}">Open in the PDF</a>')
+            note = ""
+            if a["scanned"]:
+                note = (f'<p class="note">Read from a scanned image on {page_label(a["pages"])} '
+                        f"of the PDF, so it may contain errors.</p>")
+            body = markdown.markdown(a["body"], extensions=["tables", "sane_lists"])
+            sections.append(f"""<article id="{a_id}">
+<h2 class="article-title">{escape(a["title"])}</h2>
+<p class="meta">{" · ".join(meta)}</p>
+{note}
+{body}
+<p class="back"><a href="#top">Back to top</a></p>
+</article>""")
+        page = f"""<header id="top">
+<p class="crumbs"><a href="index.html">All issues</a></p>
+<h1>{escape(issue["title"])}</h1>
+<p class="meta">ATU Local 587 · {len(arts)} items · <a class="pdf-link" href="{pdf}">Full PDF</a> · <a class="pdf-link" href="{escape(issue["source_url"])}">Original on atu587.org</a></p>
+</header>
+<nav class="toc">
+<h2>In this issue</h2>
+<ol>
+{toc}
+</ol>
+</nav>
+{chr(10).join(sections)}
+"""
+        (out / f"{d.name}.html").write_text(html_page(f"{issue['title']} · ATU Local 587", page), encoding="utf-8")
+        listing.append(f'<li><a href="{d.name}.html">{escape(issue["title"])}</a> '
+                       f'<span class="count">· {len(arts)} items</span></li>')
+
+    index = f"""<header id="top">
+<p class="crumbs"><a href="../">Feed</a></p>
+<h1>ATU Local 587 News Review archive</h1>
+<p class="meta">Every issue, split into articles. Also available as an <a href="../feed.xml">RSS feed</a>.</p>
+</header>
+<ul class="issues">
+{chr(10).join(listing)}
+</ul>
+"""
+    (out / "index.html").write_text(html_page("ATU Local 587 News Review archive", index), encoding="utf-8")
+    print(f"Wrote archive with {len(issue_dirs)} issue page(s).")
+
+
 if __name__ == "__main__":
     build()
+    build_archive()
